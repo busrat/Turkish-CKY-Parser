@@ -1,0 +1,218 @@
+MAIN	S QQ
+QQ  .
+QQ  !
+QQ  ?
+
+S	PNP PVP
+S	FNP FVP
+S	NP VP
+S	NP FSVP
+S	FSNP FSVP
+S	SSNP SSVP
+
+PVP	Verb PVS
+FVP	Verb FVS
+
+VP	Verb CVS
+VP	Verb SVS
+VP	Verb Simple
+VP 	Noun Copula
+VP	Verb
+
+FSVP	Verb FSPVS
+SSVP	Verb SSPVS
+SSVP	Question_Word SSVP
+
+PVS	Past First_Singular
+PVS	Past First_Plural
+PVS	Past Second_Singular
+PVS	Past Second_Plural
+
+FVS	Future First_Singular
+FVS	Future First_Plural
+FVS	Future Second_Singular
+FVS	Future Second_Plural
+
+CVS	Continuous First_Singular
+CVS	Continuous First_Plural
+CVS	Continuous Second_Singular
+CVS	Continuous Second_Plural
+
+SVS	Simple First_Singular
+SVS	Simple First_Plural
+SVS	Simple Second_Singular
+SVS	Simple Second_Plural
+
+FSNP	First_Singular_Pronoun NP
+
+SSNP	Second_Singular_Pronoun NP
+
+FSPVS	Past First_Singular
+
+SSPVS	Past Second_Singular
+
+FNP	Future_Adverb NP
+
+PNP	Past_Adverb Noun
+PNP	Past_Adverb NP
+PNP	PNP NP
+
+NP	Singular_Adjective Noun
+NP	Past_Adverb Noun
+NP	Adjective Noun
+NP	Adjective NP
+NP	Conjunction NP
+NP	Preposition NP
+NP	Noun Accusative
+NP	Noun Destination
+NP	Noun NS
+NP	Noun Plural
+NP	NP Adverb
+NP	NP Noun
+NP	Noun NP
+
+NS	Possessive Accusative
+NS	Possessive Destination
+NS	Possessive Location
+NS	Possessive Source
+NS	Possessive Together
+NS	Plural Accusative
+
+Verb	al
+Verb	izle
+Verb	gel
+Verb	oku
+Verb	yardımet
+Verb	anlat
+Verb	git
+Verb	gel
+
+Noun	arkadaş
+Noun	hediye
+Noun	roman
+Noun	destan
+Noun	kültür
+Noun	tarih
+Noun	yaz
+Noun	meyve
+Noun	karpuz
+Noun	akşam
+Noun	toplantı
+Noun	ağaç
+Noun	alt
+Noun	gece
+Noun	mehtap
+Noun	bura
+Noun	son
+Noun	anadolu
+Noun	dört
+Noun	yan
+Noun	medeniyet
+Noun	beşik
+Noun	orhun
+Noun	abide
+Noun	türkçe
+Noun	örnek
+Noun	okul
+Noun	köy
+Noun	uzak
+Noun	ses
+Noun	müzik
+Noun	yemek
+Noun	anne
+Noun	baba
+
+Past_Adverb	dün
+
+Future_Adverb	yarın
+
+Adverb	keyifle
+Adverb	bence
+Adverb	en
+Adverb	epeyce
+
+First_Singular	m
+First_Singular	um
+First_Singular	im
+First_Singular	ım
+
+Second_Singular	n
+Second_Singular	sin
+
+First_Plural	k
+
+Second_Plural	niz
+
+Possessive	ım
+Possessive	ümüz
+Possessive	imiz
+Possessive	ın
+Possessive	in
+Possessive	nun
+Possessive	nin
+Possessive	im
+Possessive	m
+
+Accusative 	ü
+Accusative 	i
+Accusative 	ı
+
+Destination 	a
+Destination 	ya
+Destination 	e
+
+Location 	da
+Location 	ta
+
+Source 	nden
+Source 	den
+Source 	dan
+
+Together 	le
+
+Conjunction 	ve
+
+Singular_Adjective	bir
+
+Adjective	tarihi
+Adjective	milli
+Adjective	yüksek
+Adjective	güzel
+Adjective	her
+Adjective	ilk
+Adjective	yazılı
+
+Plural 	ler
+Plural 	lar
+
+Relation 	ki
+
+Future 	acak
+Future 	ecek
+Future 	yecek
+Future 	yacak
+
+Continuous 	uyor
+Continuous 	yor
+
+Simple 	ır
+Simple 	r
+Simple 	sınız
+
+Past	dı
+Past	di
+Past	ti
+Past	du
+
+Question_End	mı
+
+Question_Word	nezaman
+
+Negation	me
+
+Copula	dir
+
+First_Singular_Pronoun	ben
+Second_Singular_Pronoun	sen
+
+Preposition	için
